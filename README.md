@@ -39,7 +39,7 @@ Quantitative statistics of the strategy are displayed in the terminal and the co
 
 ## Contributing
 ***
-The current program offers various options At present, no short selling is implemented. However, this could be done without major efforts. Furthermore, lower timeframes would be worthy to consider but would need a different data source, as Yahoo Finance doesn't provide anything below daily. More indicators would also be helpful in order to develop more refined strategies. Our assumption of all capital used could be removed, a possibility of leverage could also be implemented. Commission, spreads and rollover fees could be introduced.
+The current program offers various options for further development. For example, short selling, leverage, capital risked per trade or trading fees could be implemented. Furthermore, lower timeframes would be worthy to consider but would need a different data source, as Yahoo Finance doesn't provide anything below the daily timeframe. More indicators would also be helpful in order to develop more refined strategies.
 
 ## Credits
 ***
