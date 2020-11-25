@@ -48,8 +48,8 @@ Project created by Joschija Eberl and Yan Volery in autumn semester 2020 at Univ
 ## Sources/Acknowledgements
 ***
 We considered the following websites quite helpful for our project:
-* [information on SMA](https://www.datacamp.com/community/tutorials/moving-averages-in-pandas).
-* [information on RSI](https://towardsdatascience.com/algorithmic-trading-with-rsi-using-python-f9823e550fe0).
+* [information on SMA](https://www.datacamp.com/community/tutorials/moving-averages-in-pandas)
+* [information on RSI](https://towardsdatascience.com/algorithmic-trading-with-rsi-using-python-f9823e550fe0)
 * [useful statistics parameters](https://www.amibroker.com/guide/w_report.html#old)
 
 ## License
