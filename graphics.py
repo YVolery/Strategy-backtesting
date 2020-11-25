@@ -5,7 +5,9 @@
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 # puts whole graphing part into function
-def graphics(ticker, chart_data, buy_date_list, sell_date_list, periodSMA, periodRSI,net_profit_p,annual_return):
+
+
+def graphics(ticker, chart_data, buy_date_list, sell_date_list, periodSMA, periodRSI,net_profit_p, annual_return):
     # Define figure with 2 subplots in 2 rows
     fig = make_subplots(rows=2,
                         cols=1,
@@ -14,12 +16,10 @@ def graphics(ticker, chart_data, buy_date_list, sell_date_list, periodSMA, perio
                         row_width=[0.15, 0.85])
 
     # Set title and don't display range slider on graph
-    tit="{}           |          percentage gain is: {} %          |           annual gain is: {} %".format(str(ticker), str(round(net_profit_p,2)), str(round(annual_return,2)))
+    tit = "{}           |          percentage gain is: {} %          |           " \
+          "annual gain is: {} %".format(str(ticker), str(round(net_profit_p, 2)), str(round(annual_return, 2)))
     fig.update_layout(title_text=tit,
                       xaxis=dict(rangeslider=dict(visible=False)))
-
-
-
 
     # Set the data from our chart data as a candlestick chart, also add moving averages as a scatter chart
     fig.add_trace(go.Candlestick(x=chart_data.Date,
